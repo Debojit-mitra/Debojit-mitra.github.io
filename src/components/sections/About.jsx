@@ -32,11 +32,17 @@ const About = () => {
     {
       icon: Layout,
       title: "Web Technologies",
-      skills: ["HTML", "CSS", "JavaScript", "React"],
+      skills: ["HTML", "CSS", "JavaScript", "Node.js", "React.js", "Next.js"],
     },
   ];
 
   const timelineEvents = [
+    {
+      year: "2025",
+      title: "Intern at Trusnetix Technologies, learning React & Next.js",
+      description:
+        "Joined Trusnetix Technologies as intern, also learning and working on projects based on React & Next.js",
+    },
     {
       year: "2024",
       title: "Exploring ML and AI",
@@ -93,17 +99,17 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
           >
-            Hi, I'm Debojit Mitra. I'm a passionate Android developer with 4+
-            years of experience, crafting unique digital experiences. Currently
+            Hi, I'm Debojit Mitra. I'm a passionate Full Stack & Android developer with 4+
+            years of experience, crafting unique digital experiences. Currently working as Intern at Trusnetix Technologies and 
             leading Android at Google Developer Students Club, Assam Don Bosco
-            University and an intern at Trusnetix Technologies.
+            University.
           </motion.p>
         </div>
 
         {/* Timeline */}
         <div className="mb-20">
           <h3 className="text-2xl font-bold mb-8 text-center">
-            My Learning Journey
+            My Journey
           </h3>
           <div className="max-w-3xl mx-auto relative">
             {/* Timeline line */}

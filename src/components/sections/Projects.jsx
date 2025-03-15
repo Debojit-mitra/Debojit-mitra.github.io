@@ -10,159 +10,170 @@ const Projects = () => {
     { id: "mobile", label: "Mobile Apps" },
     { id: "web", label: "Web Apps" },
     { id: "ai_ml", label: "AI/ML" },
+    { id: "cli", label: "CLI based" },
   ];
 
   const projects = [
     {
       id: 1,
+      title: "Youtube-downloader",
+      description:
+        "A versatile YouTube downloader with CLI & Interactive CLI, supporting video/audio downloads and format selection.",
+      tags: ["Python", "Youtube", "Backend"],
+      categories: ["cli", "all"],
+      github: "https://github.com/Debojit-mitra/Youtube-downloader",
+      image: "https://i.ibb.co/mr7RNVLn/youtube-downloader-image.webp",
+    },
+    {
+      id: 2,
       title: "SmartChef",
       description:
         "SmartChef is an innovative Android app blending AI-driven recipe recommendations with intelligent cooking assistance.",
       tags: ["Android", "AI", "Food-Tech"],
-      categories: ["ai_ml", "mobile"],
+      categories: ["ai_ml", "mobile", "all"],
       github: "https://github.com/Debojit-mitra/SmartChef",
       demo: "https://github.com/Debojit-mitra/SmartChef/releases/latest",
       image: "https://i.ibb.co/P6ZW8GP/Screenshot-2024-12-15-200947.png",
     },
     {
-      id: 2,
+      id: 3,
       title: "SmartChef - Backend",
       description:
         "The backend infrastructure for SmartChef, an AI-powered recipe recommendation and cooking assistance platform.",
       tags: ["Backend", "AI", "API"],
-      categories: ["ai_ml", "web"],
+      categories: ["ai_ml", "web", "all"],
       github: "https://github.com/Debojit-mitra/SmartChef-backend",
       image: "https://i.ibb.co/jfznnj3/Screenshot-2024-12-15-201259.png",
     },
     {
-      id: 3,
+      id: 4,
       title: "My Space Portfolio",
       description:
-        "A modern, responsive portfolio website built with React and styled with Tailwind CSS, featuring a captivating space theme and smooth animations.",
+        "A modern, responsive portfolio website built with React and Tailwind CSS, featuring space theme and smooth animations.",
       tags: ["React", "Vite", "portfolio", "Frontend"],
-      categories: "web",
+      categories: ["web", "all"],
       github: "https://github.com/Debojit-mitra/Debojit-mitra.github.io",
       demo: "https://debojit-mitra.github.io",
       image: "https://i.ibb.co/6FwTmK8/Screenshot-2024-12-24-113507.webp",
     },
     {
-      id: 4,
+      id: 5,
       title: "Infinite-API",
       description:
         "A versatile FastAPI-based project that brings together multiple APIs.",
       tags: ["Python", "FastAPI", "API", "Backend"],
-      categories: "web",
+      categories: ["web", "all"],
       github: "https://github.com/Debojit-mitra/Infinite-API",
       image: "https://i.ibb.co/2ysJXgR/image.png",
     },
     {
-      id: 5,
+      id: 6,
       title: "Infinite-API Documentation",
       description:
         "Documentation to explore API endpoints, built with React for a responsive and interactive experience.",
       tags: ["React", "Documentation", "Frontend"],
-      categories: "web",
+      categories: ["web", "all"],
       github: "https://github.com/Debojit-mitra/Infinite-API",
       demo: "https://debojit-mitra.github.io/Infinite-API",
       image: "https://i.ibb.co/pjqXQXW/image.png",
     },
     {
-      id: 6,
+      id: 7,
       title: "You See",
       description:
         "An Android app for streaming anime, movies, series, and Asian dramas.",
       tags: ["Android", "Java", "Streaming"],
-      categories: "mobile",
+      categories: ["mobile", "all"],
       github: "https://github.com/Debojit-mitra/You-See",
       demo: "https://github.com/Debojit-mitra/You-See/releases/latest",
       image: "https://i.ibb.co/0s37Zdq/Screenshot-7.png",
     },
     {
-      id: 7,
+      id: 8,
       title: "Anify",
       description:
         "An Android app that turns your home screen into a dynamic mix of fascinating facts and anime images.",
       tags: ["Android", "Java", "Widget"],
-      categories: "mobile",
+      categories: ["mobile", "all"],
       github: "https://github.com/Debojit-mitra/Anify",
       demo: "https://github.com/Debojit-mitra/Anify/releases/latest",
       image:
         "https://github.com/Debojit-mitra/Anify/raw/master/screenshots/Screenshot-1.jpg",
     },
     {
-      id: 8,
+      id: 9,
       title: "async.ai",
       description:
         "AI chatbot designed to revolutionize the way you tackle computer science questions.",
       tags: ["AI", "Chatbot", "Education"],
-      categories: ["ai_ml", "mobile"],
+      categories: ["ai_ml", "mobile", "all"],
       github: "https://github.com/Debojit-mitra/async.ai",
       image:
         "https://raw.githubusercontent.com/Debojit-mitra/async.ai/master/Screenshots/1.jpg",
     },
     {
-      id: 9,
+      id: 10,
       title: "Mystic Artistry",
       description:
-        "MysticArtistry, a website dedicated to showcasing and promoting the beauty and craftsmanship of Northeast Handicrafts.",
+        "MysticArtistry, website showcasing and promoting the beauty and craftsmanship of Northeast Handicrafts.",
       tags: ["Web", "E-commerce", "Culture"],
-      categories: "web",
+      categories: ["web", "all"],
       github: "https://github.com/Debojit-mitra/MysticArtistry",
       demo: "https://mysticartistry.pages.dev",
       image:
         "https://github.com/Debojit-mitra/MysticArtistry/blob/main/screenshots/Screenshot-1.png?raw=true",
     },
     {
-      id: 10,
+      id: 11,
       title: "Calculator",
       description:
-        "A comprehensive scientific calculator Android application with a user-friendly interface and advanced mathematical functions.",
+        "A scientific calculator Android application with a user-friendly interface and advanced mathematical functions.",
       tags: ["Android", "Java", "Mathematics"],
-      categories: "mobile",
+      categories: ["mobile", "all"],
       github: "https://github.com/Debojit-mitra/Calculator",
       demo: "https://github.com/Debojit-mitra/Calculator/releases/latest",
       image:
         "https://github.com/Debojit-mitra/Calculator/raw/master/screenshots/Screenshot-1.jpg",
     },
     {
-      id: 11,
+      id: 12,
       title: "StoryFrame",
       description:
         "A Python Streamlit app that creates stories and images based on user prompts using Gemini and Replicate APIs.",
       tags: ["Python", "Streamlit", "AI"],
-      categories: ["ai_ml", "web"],
+      categories: ["ai_ml", "web", "all"],
       github: "https://github.com/Debojit-mitra/StoryFrame",
       image:
         "https://github.com/Debojit-mitra/StoryFrame/raw/main/screenshots/Screenshot-1.png",
     },
     {
-      id: 12,
+      id: 13,
       title: "Agrigroww",
       description:
         "Agrigroww is a farmer advisory app that provides tailored guidance and tips to optimize farming practices.",
       tags: ["Mobile", "Agriculture", "Advisory"],
-      categories: "mobile",
+      categories: ["mobile", "all"],
       github: "https://github.com/Debojit-mitra/AgriGroww",
       image:
         "https://github.com/Debojit-mitra/AgriGroww/raw/f45b34f9b4c3b69a1637dea67fdfabd9f5735a6d/Images/main/Screenshot_20240105_123810.png?raw=true",
     },
     {
-      id: 13,
+      id: 14,
       title: "Splash Wallpaper",
       description:
         "My first Android app, featuring a wallpaper gallery with an admin panel, built using Kotlin.",
       tags: ["Android", "Kotlin", "Gallery"],
-      categories: "mobile",
+      categories: ["mobile", "all"],
       github: "https://github.com/Debojit-mitra/Splash-Wallpaper",
       image: "https://i.ibb.co/kcDG09n/splash-wallpaper.webp",
     },
     {
-      id: 14,
+      id: 15,
       title: "FixMyRoad",
       description:
-        "An android app that lets users report road issues with images and locations, aiding quick repairs and better road safety.",
+        "An android app that lets users report road issues with images and locations.",
       tags: ["Android", "Social", "Civic"],
-      categories: "mobile",
+      categories: ["mobile", "all"],
       github: "https://github.com/Debojit-mitra/Fix-My-Road",
       image: "https://i.ibb.co/PrzV1z4/fix-my-road.webp",
     },
