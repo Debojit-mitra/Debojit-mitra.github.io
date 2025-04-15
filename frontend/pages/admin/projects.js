@@ -230,7 +230,8 @@ export default function Projects() {
                           objectFit: "cover",
                         }}
                         onError={(e) => {
-                          e.target.src = "/project-placeholder.png";
+                          e.target.src =
+                            "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png";
                           e.target.onerror = null;
                         }}
                       />
@@ -349,7 +350,8 @@ export default function Projects() {
                       objectFit: "cover",
                     }}
                     onError={(e) => {
-                      e.target.src = "/project-placeholder.png";
+                      e.target.src =
+                        "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png";
                       e.target.onerror = null;
                     }}
                   />

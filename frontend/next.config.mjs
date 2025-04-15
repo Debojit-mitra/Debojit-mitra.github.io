@@ -3,9 +3,10 @@ const nextConfig = {
   reactStrictMode: false,
   images: {
     domains: ["i.ibb.co", "github.com", "raw.githubusercontent.com"],
+    unoptimized: true,
   },
-  // Allow access from local network devices
-  allowedDevOrigins: ["local-origin.dev", "*.local-origin.dev"],
+  output: "export",
+  trailingSlash: true, // Add this for better GitHub Pages compatibility
 };
 
 export default nextConfig;

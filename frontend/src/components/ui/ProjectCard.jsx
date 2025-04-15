@@ -35,10 +35,20 @@ const ProjectCard = ({ project }) => {
         }}
       >
         {/* Project Image */}
-        <Box sx={{ position: "relative", aspectRatio: "16/9", width: "100%" }}>
+        <Box
+          sx={{
+            position: "relative",
+            aspectRatio: "16/9",
+            width: "100%",
+            height: 200,
+          }}
+        >
           <CardMedia
             component="img"
-            image={project.image || "/api/placeholder/600/400"}
+            image={
+              project.image ||
+              "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+            }
             alt={project.title}
             height="auto"
             sx={{ objectFit: "cover", height: "100%" }}
