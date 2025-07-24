@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://debojit-mitra.github.io
+
+# Sitemaps
 Sitemap: https://debojit-mitra.github.io/sitemap.xml

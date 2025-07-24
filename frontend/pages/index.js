@@ -42,7 +42,7 @@ export default function Home() {
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content={`${ownerData.name} | Portfolio`} />
+        <meta property="og:title" content={`${title}`} />
         <meta
           property="og:description"
           content="See my GitHub work and projects."
