@@ -38,6 +38,10 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="M3TQ1wISaSnjD-_KNN4ydO1kN2hUqhbuo5KdrOMdCmU"
+        />
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
